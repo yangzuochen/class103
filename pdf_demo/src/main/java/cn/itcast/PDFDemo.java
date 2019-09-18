@@ -71,31 +71,8 @@ public class PDFDemo {
 
     }
 
- public static Connection lisi() {
-        try {
-            Class.forName ( "com.mysql.jdbc.Driver" );
-            Connection connection = DriverManager.getConnection ( "jdbc:mysql:///saas-export-103", "root", "root" );
-            return connection;
-        } catch (Exception e) {
-            e.printStackTrace ();
-            return null;
-        }
 
 
-    }
-
-public static Connection zhangsan() {
-        try {
-            Class.forName ( "com.mysql.jdbc.Driver" );
-            Connection connection = DriverManager.getConnection ( "jdbc:mysql:///saas-export-103", "root", "root" );
-            return connection;
-        } catch (Exception e) {
-            e.printStackTrace ();
-            return null;
-        }
-
-
-    }
 
 
 
